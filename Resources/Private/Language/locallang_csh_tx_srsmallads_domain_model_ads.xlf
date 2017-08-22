@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-08-21T07:38:31Z" product-name="sr_smallads">
+		<header/>
+		<body>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="bodytext.description">
+				<source>bodytext</source>
+			</trans-unit>
+			<trans-unit id="code.description">
+				<source>code</source>
+			</trans-unit>
+			<trans-unit id="year.description">
+				<source>year</source>
+			</trans-unit>
+			<trans-unit id="month.description">
+				<source>month</source>
+			</trans-unit>
+			<trans-unit id="design.description">
+				<source>design</source>
+			</trans-unit>
+			<trans-unit id="email.description">
+				<source>email</source>
+			</trans-unit>
+			<trans-unit id="external_number.description">
+				<source>externalNumber</source>
+			</trans-unit>
+			<trans-unit id="adscategories.description">
+				<source>adscategories</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

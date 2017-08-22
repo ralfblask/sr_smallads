@@ -1,0 +1,34 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+	<f:flashMessages renderMode="div" />
+	<div class="tx_srsmallads" >
+		<f:for each="{ads}" as="ad">
+
+			<f:for each="{ad.adscategories}" as="category">
+				<div class="tx_srsmallads_category"><f:translate key="tx_srsmallads_domain_model_categories.category" />:&nbsp;{category.category}</div>
+			</f:for>
+
+			<div class="tx_srsmallads_title"><f:link.action action="show" arguments="{ad : ad}"> {ad.title}</f:link.action></div>
+
+			<div class="tx_srsmallads_bodytext clearer">{ad.bodytext}</div>
+
+			<!--<div><f:link.action action="edit" arguments="{ad : ad}">Edit</f:link.action></div>
+			<div><f:link.action action="delete" arguments="{ad : ad}">Delete</f:link.action></div>-->
+		</f:for>
+	</div>
+
+<!--<f:link.action action="new">New Ads</f:link.action>-->
+</f:section>

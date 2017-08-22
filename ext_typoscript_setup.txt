@@ -1,0 +1,21 @@
+
+config.tx_extbase{
+    persistence{
+        classes{
+
+            StadtRevue\SrSmallads\Domain\Model\Ads {
+                subclasses {
+                    Tx_SrSmallads_ImprtData = StadtRevue\SrSmallads\Domain\Model\ImprtData
+					
+          		}
+            }
+            StadtRevue\SrSmallads\Domain\Model\ImprtData {
+                mapping {
+                    tableName = tx_srsmallads_domain_model_ads
+                    recordType = Tx_SrSmallads_ImprtData
+                }
+            }
+            
+    	}
+    }
+}

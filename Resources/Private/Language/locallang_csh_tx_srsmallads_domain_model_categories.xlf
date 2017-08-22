@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-08-21T07:38:31Z" product-name="sr_smallads">
+		<header/>
+		<body>
+			<trans-unit id="category.description">
+				<source>category</source>
+			</trans-unit>
+			<trans-unit id="original_category.description">
+				<source>originalCategory</source>
+			</trans-unit>
+			<trans-unit id="costless.description">
+				<source>costless</source>
+			</trans-unit>
+			<trans-unit id="categoryads.description">
+				<source>categoryads</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

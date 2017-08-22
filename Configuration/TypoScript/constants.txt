@@ -1,0 +1,17 @@
+
+plugin.tx_srsmallads_pi1 {
+	view {
+		# cat=plugin.tx_srsmallads_pi1/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:sr_smallads/Resources/Private/Templates/
+		# cat=plugin.tx_srsmallads_pi1/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:sr_smallads/Resources/Private/Partials/
+		# cat=plugin.tx_srsmallads_pi1/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:sr_smallads/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_srsmallads_pi1//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
+
+## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder

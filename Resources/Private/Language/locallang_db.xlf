@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-08-21T07:38:31Z" product-name="sr_smallads">
+		<header/>
+		<body>
+			<trans-unit id="tx_srsmallads_domain_model_ads">
+				<source>Ads</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_ads.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_ads.bodytext">
+				<source>Bodytext</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_ads.code">
+				<source>Code</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_ads.year">
+				<source>Year</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_ads.month">
+				<source>Month</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_ads.design">
+				<source>Design</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_ads.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_ads.external_number">
+				<source>External Number</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_ads.adscategories">
+				<source>Adscategories</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads.tx_extbase_type">
+				<source>Record Type</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads.tx_extbase_type.0">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_ads.tx_extbase_type.Tx_SrSmallads_Ads">
+				<source>StadtRevue Small Ads Ads</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_categories">
+				<source>Categories</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_categories.category">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_categories.original_category">
+				<source>Original Category</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_categories.costless">
+				<source>Costless</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_imprtdata">
+				<source>Imprt Data</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_ads.tx_extbase_type.Tx_SrSmallads_ImprtData">
+				<source>StadtRevue Small Ads ImprtData</source>
+			</trans-unit>
+			<trans-unit id="tx_srsmallads_domain_model_categories.categoryads">
+				<source>Categoryads</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

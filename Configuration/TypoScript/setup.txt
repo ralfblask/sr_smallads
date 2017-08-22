@@ -1,0 +1,63 @@
+
+plugin.tx_srsmallads_pi1 {
+	view {
+		templateRootPath = {$plugin.tx_srsmallads_pi1.view.templateRootPath}
+		partialRootPath = {$plugin.tx_srsmallads_pi1.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_srsmallads_pi1.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_srsmallads_pi1.persistence.storagePid}
+	}
+}
+
+plugin.tx_srsmallads._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-sr-smallads table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-sr-smallads table th {
+		font-weight:bold;
+	}
+
+	.tx-sr-smallads table td {
+		vertical-align:top;
+	}
+
+	.typo3-messages .message-error {
+		color:red;
+	}
+
+	.typo3-messages .message-ok {
+		color:green;
+	}
+
+)
+
+## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder
+
+plugin.tx_srsmallads._CSS_DEFAULT_STYLE (
+
+	.tx_srsmallads_title {
+		font-weight:bold;
+	}
+
+	.tx_srsmallads_bodytext {
+		vertical-align:top;
+		margin: 0 0 1em;
+	}
+
+	.tx_srsmallads_category {
+	}
+
+)
